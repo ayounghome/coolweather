@@ -23,7 +23,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation 'junit:junit:4.12'
-    compile fileTree(dir: 'libs',include: ['*.jar'])
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:26.1.0'
     testCompile 'junit:junit:4.12'
     compile 'org.litepal.android:core:1.4.1'           //启用litepal对数据库进行操作
